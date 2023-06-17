@@ -5,7 +5,7 @@
 /**
  * main - This program will assign a random number to the variable
  * each time it is executed. Complete the
- * @n: num
+ * @n- num
  *
  * Return: Always 0.
  */
@@ -23,11 +23,11 @@ int main(void)
 	else if (n == 0)
 	{
 
-		printf("%d is zero\n, n");
+		printf("%d is zero\n", n);
 	}
 	else
 	{
-		printf("is negative\n, n");
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
