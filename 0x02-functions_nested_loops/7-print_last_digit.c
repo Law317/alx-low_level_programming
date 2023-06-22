@@ -2,16 +2,21 @@
 
 /**
  * print_last_digit - Write a function that prints the last digit of a number.
- *
- * REturn: lastdigit
+ * @i: argument
+ * Return: lastdigit
  */
 
 int print_last_digit(int i)
 {
-	int l;
 
-	l = i % 10;
-	return l;
+	i %= 10;
+
+	if (i < 0)
+	{
+		i *= -1;
+	}
+	_putchar('0' + i);
+	return (i);
 }
 
 
