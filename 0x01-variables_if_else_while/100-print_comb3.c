@@ -24,8 +24,8 @@ int main(void)
 			d++;
 			putchar(',');
 			putchar(' ');
-			if (c == '8' && d == '9')
-				break;
+			if (c == 8 && d == 9)
+				continue;
 		}
 		c++;
 
